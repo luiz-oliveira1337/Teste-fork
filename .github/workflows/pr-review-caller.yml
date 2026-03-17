@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-central-review:
-    uses: SUA_ORG_OU_USUARIO/repo-automacoes/.github/workflows/reusable-pr-review.yml@main
+    uses: Luiz-1337/repo-automacoes/.github/workflows/reusable-pr-review.yml
     with:
       target_repository: ${{ github.repository }}
       target_pr_number: ${{ github.event.pull_request.number }}
